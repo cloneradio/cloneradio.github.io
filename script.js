@@ -166,13 +166,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // Puedes mezclar .mp4, .webm, .gif, .webp (animada), .apng
     // Colócalos en assets/videos/ y añade aquí sus nombres.
     const availableMedia = [
-        'teclear.mp4',
-        'cassette.gif',
-        'tv.mp4',
-        // 'matrix-rain.mp4',
-        // 'rain.gif',
-        // 'terminal.webp',
-        // añade más aquí
+        'teclear.mp4'
     ];
 
     const todayKey = () => new Date().toISOString().slice(0, 10); // YYYY-MM-DD
